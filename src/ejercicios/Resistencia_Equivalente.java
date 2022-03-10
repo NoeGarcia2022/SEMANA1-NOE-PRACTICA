@@ -15,7 +15,7 @@ public class Resistencia_Equivalente {
         R4 = 84;
         
         
-        req = ((1/1/R1)+(1/1/R2)+(1/1/R3)+(1/1/R4));
+        req = ((1/R1)+(1/R2)+(1/R3)+(1/R4));
         
         System.out.println("La Resistencia Equivalente es: " + req);
     }
