@@ -1,21 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ejercicios;
 
-/**
- *
- * @author ITCA
- */
 public class Resistencia_Equivalente {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        //declarar variables
+        double R1, R2, R3, R4, req;
+        
+        //inicializar variables
+        
+        R1 = 5.1;
+        R2 = 68;
+        R3 = 75;
+        R4 = 84;
+        
+        
+        req = ((1/1/R1)+(1/1/R2)+(1/1/R3)+(1/1/R4));
+        
+        System.out.println("La Resistencia Equivalente es: " + req);
     }
     
 }
