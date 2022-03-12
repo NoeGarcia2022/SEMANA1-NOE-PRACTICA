@@ -18,7 +18,7 @@ public class CalculoSalarioDocente {
         salario = (sueldoHora*totalHoras);
         salarioFinal = (salario-renta);
         
-        System.out.println("El Decente en un mes de clases gana: " + salarioFinal + " dolares");
+        System.out.println("El Docente en un mes de clases gana: " + salarioFinal + " dolares");
         
         
     }
